@@ -1,0 +1,132 @@
+/* Color Theme Swatches in Hex */
+.Sollio-Agriculture-1-hex { color: #8C2034; }
+.Sollio-Agriculture-2-hex { color: #038C33; }
+.Sollio-Agriculture-3-hex { color: #045922; }
+.Sollio-Agriculture-4-hex { color: #01260A; }
+.Sollio-Agriculture-5-hex { color: #F2D022; }
+
+/* Color Theme Swatches in RGBA */
+.Sollio-Agriculture-1-rgba { color: rgba(140, 32, 52, 1); }
+.Sollio-Agriculture-2-rgba { color: rgba(2, 140, 50, 1); }
+.Sollio-Agriculture-3-rgba { color: rgba(4, 89, 34, 1); }
+.Sollio-Agriculture-4-rgba { color: rgba(0, 38, 10, 1); }
+.Sollio-Agriculture-5-rgba { color: rgba(242, 207, 33, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Sollio-Agriculture-1-hsla { color: hsla(348, 62, 33, 1); }
+.Sollio-Agriculture-2-hsla { color: hsla(140, 96, 28, 1); }
+.Sollio-Agriculture-3-hsla { color: hsla(140, 90, 18, 1); }
+.Sollio-Agriculture-4-hsla { color: hsla(135, 96, 7, 1); }
+.Sollio-Agriculture-5-hsla { color: hsla(50, 89, 54, 1); }
+
+
+
+.card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.content menu1 img:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.card-deck {
+    width: auto;
+    height: auto;
+    border-radius: 15px 20px 20px 20px;
+}
+
+
+/* modif */
+
+.card {
+    align-items: center;
+    background-color: white;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    display: flex;
+    margin-right: 4rem;
+    width: 200px;
+}
+
+
+/*  button di lainnya*/
+
+.Buttton-container .text-center button {
+    border-color: #2b9c15;
+    border-width: 3px;
+}
+
+.Buttton-container .text-center button {
+    background-color: white;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    background-color: #2b9c15;
+    border: none;
+    border-radius: 33px;
+    padding-right: 33px;
+    padding-left: 33px;
+    margin-top: 45px;
+}
+
+.Buttton-container .text-center button:hover {
+    border-color: #f7faf7;
+    border-width: 3px;
+}
+
+
+/* cari */
+
+#pencarian {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+
+/* id=IconButton */
+
+#satu {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#dua {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#tiga {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#empat {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#lima {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#enam {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnbutton {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnOutline {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnPesan {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnHarga {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+
+/* detail .html */

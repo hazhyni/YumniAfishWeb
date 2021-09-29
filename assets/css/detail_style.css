@@ -1,0 +1,35 @@
+#counter {
+    position: relative;
+}
+
+.harga {
+    padding: 10px;
+    background: #bdfac4;
+    border-radius: 1em;
+    color: black;
+    width: max-content;
+}
+
+.lokasi {
+    background: #f5f8f5;
+}
+
+.sum-pesan {
+    background: #f1f7f1;
+    width: max-content;
+}
+
+
+a.tombol-counter {
+    background: #bdfac4;
+    padding: 5px;
+}
+
+.proftoko {
+    border-radius: 1em;
+    background: #f1f7f1;
+}
+
+#counter {
+    font-weight: lighter;
+}

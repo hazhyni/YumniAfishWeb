@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/pesanan_style.css">
+    <link rel="stylesheet" href="./assets/css/pesanan.css">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top fixed-top navbar-expand-lg navbar-dark bg-success" id="nav-hori">
+        <div class="container">
+            <a class="navbar-brand" href="../home.html">
+                <img src="../assets/img/logo.png" width="45" height="45">
+            </a>
+            <a class="navbar-brand font-weight-bold" href="../home.html">AFISH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="ml-auto navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <p class=" text-center bg.success">Nasruddin</p>
+                            <hr>
+                            <a class="dropdown-item" href="#">Profil</a>
+                            <a class="dropdown-item" href="#">Tambah Komoditi</a>
+                            <a class="dropdown-item" href="#">Performa Toko</a>
+                            <a class="dropdown-item" href="#">Pesanan</a>
+                            <a class="dropdown-item" href="#">Dompet</a>
+                            <a class="dropdown-item" href="./login.html">logout</a>
+                        </div>
+                    </div>
+                    <img src="./assets/img/Profil/frofil avatar.png" width="30" height="30" class="mt-1 rounded-circle"
+                        id="dropdownMenuButton" data-toggle="dropdown">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>Kemajuan Pesanan</h1>
+    <br>
+    <div class="process-wrapper">
+        <div id="progress-bar-container">
+            <ul>
+                <li class="step step01 active">
+                    <div class="step-inner">Pesanan </div>
+                </li>
+                <li class="step step02">
+                    <div class="step-inner">Dikemas</div>
+                </li>
+                <li class="step step03">
+                    <div class="step-inner">Pick Up Pesanan</div>
+                </li>
+                <li class="step step04">
+                    <div class="step-inner">Dalam Perjalanan</div>
+                </li>
+                <li class="step step05">
+                    <div class="step-inner">Selesai</div>
+                </li>
+            </ul>
+
+            <div id="line">
+                <div id="line-progress"></div>
+            </div>
+        </div>
+
+        <div id="progress-content-section">
+            <div class="section-content pesanan active">
+                <h2>HOME SECTION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                    fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex.
+                    Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam
+                    porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                    condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis
+                    at ex a, lacinia suscipit orci.</p>
+                <button class="btn btn-success step02">Selanjutnya</button>
+            </div>
+
+            <div class="section-content penerimaan">
+                <h2>GALLERY SECTION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                    fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex.
+                    Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam
+                    porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                    condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis
+                    at ex a, lacinia suscipit orci.</p>
+                <button class="btn btn-success step03">Selanjutnya</button>
+            </div>
+
+            <div class="section-content pickup">
+                <h2>Creative CREATIONS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                    fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex.
+                    Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam
+                    porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                    condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis
+                    at ex a, lacinia suscipit orci.</p>
+            </div>
+
+            <div class="section-content perjalanan">
+                <h2>TESTIMONIALS NOW</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                    fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex.
+                    Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam
+                    porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                    condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis
+                    at ex a, lacinia suscipit orci.</p>
+            </div>
+
+            <div class="section-content selesai">
+                <h2>OUR LOCATIONS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                    fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex.
+                    Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam
+                    porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                    condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis
+                    at ex a, lacinia suscipit orci.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<section class="timeline_area section_padding_130">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <!-- Section Heading-->
+                <div class="section_heading text-center">
+                    <h6>Our History</h6>
+                    <h3>A brief stories of our 2 years company journey</h3>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- Timeline Area-->
+                <div class="apland-timeline-area">
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p>Near Future</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Updated 5.0</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-archive" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Fixed bug</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-address-book" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Reach 1k Users</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p>2020</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Updated 4.4.0</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Fixed bug</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Timeline Content-->
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p>2019</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-id-card" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Updated 4.0</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Fixed bug</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Reach 500 Users</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/js/pesanan.js"></script>
+
+</body>
+
+</html>

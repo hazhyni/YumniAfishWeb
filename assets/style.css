@@ -1,0 +1,109 @@
+.card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.content menu1 img:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.card-deck {
+    width: auto;
+    height: auto;
+    border-radius: 15px 20px 20px 20px;
+}
+
+
+/* modif */
+
+.card {
+    align-items: center;
+    background-color: white;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    display: flex;
+    margin-right: 4rem;
+    width: 200px;
+}
+
+
+/*  button di lainnya*/
+
+.Buttton-container .text-center button {
+    border-color: #2b9c15;
+    border-width: 3px;
+}
+
+.Buttton-container .text-center button {
+    background-color: white;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    background-color: #2b9c15;
+    border: none;
+    border-radius: 33px;
+    padding-right: 33px;
+    padding-left: 33px;
+    margin-top: 45px;
+}
+
+.Buttton-container .text-center button:hover {
+    border-color: #f7faf7;
+    border-width: 3px;
+}
+
+
+/* cari */
+
+#pencarian {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+
+/* id=IconButton */
+
+#satu {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#dua {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#tiga {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#empat {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#lima {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#enam {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnbutton {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnOutline {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnPesan {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+#btnHarga {
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+
+/* detail .html */
